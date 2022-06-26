@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:white;
+      }
+      .images{
+        width:auto;
+        margin:auto;
+        
+      }
+      .labels{
+        margin-left:140px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:350px;
+        height:250px;
+      }
+      .main{
+        margin: 10px 20px 0px 20px;
+        color: rgb(29, 61, 46);
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:rgb(115, 138, 201);">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h2 class="main">Top 5 Favourite Foods:</h2>
+        <ul>
+          <li><a href="#soup">Soup</a></li>
+          <li><a href="#pasta">Pasta</a></li>
+          <li><a href="#lassi">Lassi</a></li>
+          <li><a href="#dosa">Dosa</a></li>
+          <li><a href="#chaat">Chaat</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="soup"><img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="fooditem"></div>
+        <p class="labels">Soup</p>
+        <div id="pasta"><img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="fooditem"/></div>
+        <p class="labels">Pasta</p>
+        <div id="lassi"><img src="https://images.unsplash.com/photo-1527406619566-0159590b8540?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="fooditem"/></div>
+        <p class="labels">Lassi</p>
+        <div id="dosa"><img src="https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558380?s=612x612" class="fooditem"/></div>
+        <p class="labels">Dosa</p>
+        <div id="chaat"><img src="https://media.istockphoto.com/photos/katori-chaat-picture-id854349642?s=612x612" class="fooditem"/></div>
+        <p class="labels">Chaat</p>
+      </div>
+    </div>
+  </body>
+</html>
